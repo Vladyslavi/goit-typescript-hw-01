@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch"
+    "start": "web-dev-server --node-resolve --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladyslavi/goit-typescript-hw-01.git"
+  },
+  "homepage": "https://github.com/Vladyslavi/goit-typescript-hw-01",
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladyslavi/goit-typescript-hw-01/issues"
+  },
   "devDependencies": {
     "@web/dev-server": "^0.4.1"
   },
